@@ -28,9 +28,10 @@
 <body>
 The content of the document......
 <script>
-var link = prompt(“Link:”)
+let link = null;
+link = prompt('link?:');
 var output = `<iframe src=”${link}”></iframe>`
-window.open('about:blank”).document.body.innerHTML += output;
+window.open('about:blank').document.body.innerHTML += output;
 </script>
 </body>
 
